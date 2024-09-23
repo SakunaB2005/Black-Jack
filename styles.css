@@ -1,0 +1,51 @@
+body{
+    background-image: url(images/360_F_362885839_aaM14GXz6P5zehrRSixxpLS26bSDj6aA.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.generateButton{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    box-shadow: 1px 2px 1px black;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:active{
+    background-color: black;
+    color: white;
+    box-shadow: 1px 2px 1px rgb(255, 255, 255);
+}
+
+#mainResult{
+    border: 3px solid white;
+    
+}
+
+#restartButton{
+    margin: 20px;
+    display: none;
+    margin-top: 1px;
+}
+
+img{
+    margin: 15px;
+    border: 2px solid white;
+    box-shadow: 5px 10px 5px black;
+}
